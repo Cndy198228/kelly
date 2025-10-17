@@ -1,0 +1,41 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#0056b3"/>
+  
+  <!-- Office/Meeting scene -->
+  <rect x="50" y="160" width="200" height="20" fill="#8B4513"/>
+  <rect x="80" y="130" width="140" height="15" fill="#808080" rx="1"/>
+  
+  <!-- Adult learner -->
+  <g transform="translate(150, 110)">
+    <!-- Head -->
+    <circle cx="0" cy="-35" r="30" fill="#FFDAB9"/>
+    <!-- Face features -->
+    <circle cx="-10" cy="-38" r="3" fill="#000000"/>
+    <circle cx="10" cy="-38" r="3" fill="#000000"/>
+    <path d="M-10,-15 Q0,-20 10,-15" stroke="#000000" stroke-width="1.5" fill="none"/>
+    <!-- Facial hair -->
+    <path d="M-15,-5 Q0,5 15,-5" stroke="#654321" stroke-width="1.5" fill="none"/>
+    <!-- Hair -->
+    <path d="M-35,-35 Q-40,-70 40,-70 Q35,-35 35,-35 Z" fill="#654321"/>
+    <!-- Body -->
+    <path d="M-25,0 Q-30,60 30,60 Q25,0 -25,0 Z" fill="#2F4F4F"/>
+    <!-- Arms -->
+    <rect x="30" y="15" width="20" height="10" rx="5" fill="#FFDAB9"/>
+    <rect x="-50" y="15" width="20" height="10" rx="5" fill="#FFDAB9"/>
+  </g>
+  
+  <!-- Briefcase -->
+  <rect x="200" y="120" width="50" height="40" fill="#8B0000" rx="2"/>
+  <rect x="205" y="125" width="40" height="30" fill="#604020" rx="1"/>
+  <rect x="210" y="115" width="30" height="5" fill="#604020" rx="1"/>
+  
+  <!-- Tablet with English learning content -->
+  <rect x="180" y="90" width="60" height="40" fill="#C0C0C0" rx="2"/>
+  <rect x="185" y="95" width="50" height="30" fill="#FFFFFF" rx="1"/>
+  <line x1="185" y1="105" x2="235" y2="105" stroke="#000000" stroke-width="1"/>
+  <line x1="185" y1="115" x2="235" y2="115" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Text - no language attributes needed in SVG as they are handled in the HTML -->
+  <text x="150" y="185" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">Adult</text>
+</svg>

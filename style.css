@@ -1,0 +1,555 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #000;
+    background-color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Legal Link Styles */
+.legal-link-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.legal-link {
+    color: #ffffff;
+    background-color: #ffd700;
+    color: #000000;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.legal-link:hover {
+    background-color: #ffed4e;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.logo-star {
+    font-size: 2rem;
+}
+
+.brand-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.hero-image-container {
+    position: relative;
+}
+
+.hero-image {
+    border-radius: 10px;
+    border: 10px solid #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
+}
+
+.heart-bubble {
+    position: absolute;
+    top: 20px;
+    right: -20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.hero-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.hero-button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.hero-button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+/* Explore Sections */
+.explore {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.explore::after {
+    content: '⭐';
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 4rem;
+    transform: rotate(15deg);
+    color: #0056b3;
+    opacity: 0.5;
+}
+
+.explore-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.explore-heading {
+    font-size: 2.5rem;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.explore-subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.feature-card {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-card.yellow {
+    background-color: #ffd700;
+}
+
+.feature-card.blue {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.feature-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.feature-descriptions {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature-desc {
+    width: 150px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.feature-desc.blue {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+.feature-desc.yellow {
+    background-color: #ffd700;
+    color: #000000;
+}
+
+/* Comments Section */
+.comments {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 60px 20px;
+    position: relative;
+}
+
+.comments::before {
+    content: '⭐';
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 4rem;
+    color: #ffd700;
+}
+
+.comments-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.comments-heading {
+    font-size: 2.5rem;
+    color: #ffd700;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 30px;
+    border-radius: 20px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-avatar {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.testimonial-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    color: #0056b3;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.testimonial-author::before {
+    content: '|';
+    color: #0056b3;
+}
+
+/* Courses Section */
+.courses {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.courses::after {
+    content: '⭐';
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 4rem;
+    color: #0056b3;
+    opacity: 0.5;
+}
+
+.courses-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.courses-heading {
+    font-size: 2.5rem;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.course-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.course-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.course-title {
+    font-size: 1.2rem;
+    color: #0056b3;
+    text-align: center;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.course-description {
+    font-size: 0.9rem;
+    color: #333;
+    padding: 0 15px 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.courses-footer {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 60px 20px;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-heading {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-item {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.contact-item a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+.contact-item a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #ffffff;
+}
+
+.contact-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-top: 2px solid #ffffff;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.brand-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-main {
+        flex-direction: column;
+    }
+    
+    .hero-buttons {
+        grid-template-columns: 1fr;
+        max-width: 300px;
+    }
+    
+    .heart-bubble {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+        top: 15px;
+        right: -15px;
+    }
+    
+    .feature-cards,
+    .feature-descriptions,
+    .testimonials,
+    .course-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .feature-card,
+    .feature-desc {
+        width: 200px;
+    }
+    
+    .testimonial {
+        max-width: 100%;
+    }
+    
+    .course-card {
+        width: 90%;
+        max-width: 300px;
+    }
+    
+    .explore-heading,
+    .comments-heading,
+    .courses-heading,
+    .contact-heading {
+        font-size: 2rem;
+    }
+    
+    .hero-heading {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 30px 15px;
+    }
+    
+    .logo-star {
+        font-size: 1.5rem;
+    }
+    
+    .brand-name {
+        font-size: 1.4rem;
+    }
+    
+    .hero-image {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .heart-bubble {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+        top: 10px;
+        right: -10px;
+    }
+    
+    .explore::after,
+    .comments::before,
+    .courses::after {
+        font-size: 2.5rem;
+        right: 20px;
+        top: 10px;
+    }
+    
+    .explore-heading,
+    .comments-heading,
+    .courses-heading,
+    .contact-heading {
+        font-size: 1.8rem;
+    }
+    
+    .hero-heading {
+        font-size: 1.8rem;
+    }
+    
+    .contact-item {
+        font-size: 1rem;
+    }
+    
+    .brand-text {
+        font-size: 1.2rem;
+    }
+}

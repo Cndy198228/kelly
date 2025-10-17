@@ -1,0 +1,20 @@
+<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" type="image/svg+xml">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#0056b3"/>
+  
+  <!-- Kids Learning English - Simple Illustration -->
+  <g>
+    <!-- Children -->
+    <circle cx="150" cy="250" r="40" fill="#FFDAB9"/>
+    <circle cx="250" cy="230" r="35" fill="#FFE4B5"/>
+    <circle cx="200" cy="300" r="30" fill="#FFB6C1"/>
+    
+    <!-- Books -->
+    <rect x="130" y="350" width="60" height="30" rx="2" fill="#FFD700"/>
+    <rect x="210" y="340" width="50" height="25" rx="2" fill="#FF6347"/>
+    
+    <!-- Text -->
+    <text x="200" y="430" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">Kids Learning English</text>
+    <text x="200" y="460" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Fun & Interactive Class</text>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500">
+  <rect width="400" height="500" fill="#0056b3"/>
+  <circle cx="200" cy="200" r="50" fill="#FFDAB9"/>
+  <rect x="150" y="270" width="100" height="40" rx="5" fill="#FFD700"/>
+  <text x="200" y="330" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">English Class</text>
+  <text x="200" y="360" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Kids Learning Together</text>
+</svg>

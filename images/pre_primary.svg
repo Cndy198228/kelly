@@ -1,0 +1,23 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" type="image/svg+xml">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#0056b3"/>
+  
+  <!-- Pre-primary Class Illustration -->
+  <g>
+    <!-- Young child -->
+    <circle cx="150" cy="100" r="30" fill="#FFDAB9"/>
+    
+    <!-- Storybook -->
+    <rect x="120" y="140" width="60" height="40" rx="2" fill="#FFD700"/>
+    <path d="M120 140 L150 120 L180 140 Z" fill="#FFFACD"/>
+    
+    <!-- Stars -->
+    <path d="M100 80 L105 90 L115 90 L107 96 L110 106 L100 100 L90 106 L93 96 L85 90 L95 90 Z" fill="#FFD700"/>
+    <path d="M200 70 L205 80 L215 80 L207 86 L210 96 L200 90 L190 96 L193 86 L185 80 L195 80 Z" fill="#FFD700"/>
+    <path d="M100 140 L105 150 L115 150 L107 156 L110 166 L100 160 L90 166 L93 156 L85 150 L95 150 Z" fill="#FFD700"/>
+    <path d="M200 130 L205 140 L215 140 L207 146 L210 156 L200 150 L190 156 L193 146 L185 140 L195 140 Z" fill="#FFD700"/>
+    
+    <!-- Text -->
+    <text x="150" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Pre-primary Class</text>
+  </g>
+</svg>

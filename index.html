@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelly's English Class | Clase de Inglés Kelly</title>
+    <style>
+        /* Language Switcher Styles */
+        .language-switcher {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            gap: 10px;
+            z-index: 100;
+        }
+        
+        .language-btn {
+            background-color: #ffd700;
+            color: #000000;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: background-color 0.3s ease;
+        }
+        
+        .language-btn:hover {
+            background-color: #ffed4e;
+        }
+        
+        .language-btn.active {
+            background-color: #ffffff;
+            color: #0056b3;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="language-switcher">
+                <button class="language-btn active" lang="en">English</button>
+                <button class="language-btn" lang="es">Español</button>
+            </div>
+            <div class="legal-link-container">
+                <a href="AVISO_LEGAL_Xin_He(1).pdf" target="_blank" class="legal-link" data-lang="es">Aviso Legal</a>
+                <a href="AVISO_LEGAL_Xin_He(1).pdf" target="_blank" class="legal-link" style="display:none;" data-lang="en">Legal Notice</a>
+            </div>
+            <div class="logo-container">
+                <span class="logo-star">⭐</span>
+                <h1 class="brand-name" data-lang="en">KELLY'S ENGLISH CLASS</h1>
+                <h1 class="brand-name" data-lang="es" style="display:none;">CLASE DE INGLÉS KELLY</h1>
+            </div>
+            <div class="hero-main">
+                <div class="hero-image-container">
+                    <img class="hero-image" src="images/realistic_hero.svg" alt="English Class with Kids" width="400" height="500">
+                    <div class="heart-bubble">❤️</div>
+                </div>
+                <div class="hero-text">
+                    <h2 class="hero-heading" data-lang="en">Let's make learning fun!</h2>
+                    <h2 class="hero-heading" data-lang="es" style="display:none;">¡Hagamos que el aprendizaje sea divertido!</h2>
+                    <div class="hero-buttons">
+                        <a href="#" class="hero-button" data-lang="en">PRIVATE CLASS</a>
+                        <a href="#" class="hero-button" data-lang="es" style="display:none;">CLASE PARTICULAR</a>
+                        <a href="#" class="hero-button" data-lang="en">GROUP CLASS</a>
+                        <a href="#" class="hero-button" data-lang="es" style="display:none;">CLASE GRUPAL</a>
+                        <a href="#" class="hero-button" data-lang="en">SPECIAL COURSES</a>
+                        <a href="#" class="hero-button" data-lang="es" style="display:none;">CURSOS ESPECIALES</a>
+                        <a href="#" class="hero-button" data-lang="en">BOOK YOUR CLASS</a>
+                        <a href="#" class="hero-button" data-lang="es" style="display:none;">RESERVA TU CLASE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore Sections -->
+    <section class="explore">
+        <div class="explore-content">
+            <h2 class="explore-heading" data-lang="en">Explore the sections!</h2>
+                <h2 class="explore-heading" data-lang="es" style="display:none;">Explora las secciones!</h2>
+                <p class="explore-subtitle" data-lang="en">Builds skills and confidence, and makes sure learners are always on the optimal path to fluency</p>
+                <p class="explore-subtitle" data-lang="es" style="display:none;">Desarrolla habilidades y confianza, y asegura que los estudiantes estén siempre en el camino óptimo hacia la fluidez</p>
+            <div class="feature-cards">
+                <div class="feature-card yellow">
+                    <div class="feature-icon">🔍</div>
+                    <h3 class="feature-title" data-lang="en">Overview</h3>
+                    <h3 class="feature-title" data-lang="es" style="display:none;">Descripción General</h3>
+                </div>
+                <div class="feature-card blue">
+                    <div class="feature-icon">📅</div>
+                    <h3 class="feature-title" data-lang="en">TimeTable</h3>
+                    <h3 class="feature-title" data-lang="es" style="display:none;">Horario</h3>
+                </div>
+                <div class="feature-card yellow">
+                    <div class="feature-icon">📚</div>
+                    <h3 class="feature-title" data-lang="en">Course</h3>
+                    <h3 class="feature-title" data-lang="es" style="display:none;">Curso</h3>
+                </div>
+                <div class="feature-card blue">
+                    <div class="feature-icon">🧩</div>
+                    <h3 class="feature-title" data-lang="en">Assessment</h3>
+                    <h3 class="feature-title" data-lang="es" style="display:none;">Evaluación</h3>
+                </div>
+            </div>
+            <div class="feature-descriptions">
+                <div class="feature-desc blue">
+                    <p data-lang="en">Underpinned by the Global Scale of English</p>
+                    <p data-lang="es" style="display:none;">Respaldado por la Escala Global de Inglés</p>
+                </div>
+                <div class="feature-desc yellow">
+                    <p data-lang="en">Booking, organizing and managing time efficiently</p>
+                    <p data-lang="es" style="display:none;">Reservar, organizar y gestionar el tiempo de forma eficiente</p>
+                </div>
+                <div class="feature-desc blue">
+                    <p data-lang="en">English courses that are relevant, motivating and engaging</p>
+                    <p data-lang="es" style="display:none;">Cursos de inglés relevantes, motivadores y atractivos</p>
+                </div>
+                <div class="feature-desc yellow">
+                    <p data-lang="en">English assessments that help learners build a growth mindset</p>
+                    <p data-lang="es" style="display:none;">Evaluaciones de inglés que ayudan a los estudiantes a desarrollar una mentalidad de crecimiento</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comments Section -->
+    <section class="comments">
+        <div class="comments-content">
+            <h2 class="comments-heading" data-lang="en">Comments</h2>
+            <h2 class="comments-heading" data-lang="es" style="display:none;">Comentarios</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="testimonial-avatar">👩‍🏫</div>
+                    <p class="testimonial-text" data-lang="en">"An amazing English teacher! Our child enjoys every lesson and looks forward to learning new things. Xin is patient, encouraging, and knows how to make learning interesting. We truly appreciate her hard work and support."</p>
+                    <p class="testimonial-text" data-lang="es" style="display:none;">"¡Una profesora de inglés increíble! Nuestro hijo disfruta de cada lección y espera con interés aprender cosas nuevas. Xin es paciente, alentadora y sabe cómo hacer que el aprendizaje sea interesante. Realmente apreciamos su arduo trabajo y apoyo."</p>
+                    <p class="testimonial-author" data-lang="en">Lucy's mom</p>
+                    <p class="testimonial-author" data-lang="es" style="display:none;">Madre de Lucy</p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-avatar">👦</div>
+                    <p class="testimonial-text" data-lang="en">"I love my English teacher-Mrs Xin! The lessons are so much fun, and I learn a lot of new words. My teacher always helps me when I don't understand something. English is my favorite subject now!"</p>
+                    <p class="testimonial-text" data-lang="es" style="display:none;">"¡Me encanta mi profesora de inglés, la Sra. Xin! Las lecciones son muy divertidas y aprendo muchas palabras nuevas. Mi profesora siempre me ayuda cuando no entiendo algo. ¡El inglés es ahora mi asignatura favorita!"</p>
+                    <p class="testimonial-author" data-lang="en">Eric</p>
+                    <p class="testimonial-author" data-lang="es" style="display:none;">Eric</p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-avatar">👩</div>
+                    <p class="testimonial-text" data-lang="en">"Our child has been learning with Xin for seven years, and we couldn't be happier with the progress! She is patient, professional, and truly dedicated to their students. We are excited to continue this journey with them in the future!"</p>
+                    <p class="testimonial-text" data-lang="es" style="display:none;">"Nuestro hijo ha estado aprendiendo con Xin durante siete años, y no podríamos estar más contentos con el progreso. Ella es paciente, profesional y verdaderamente dedicada a sus estudiantes. ¡Estamos emocionados de continuar este viaje con ellos en el futuro!"</p>
+                    <p class="testimonial-author" data-lang="en">Jacky's mom</p>
+                    <p class="testimonial-author" data-lang="es" style="display:none;">Madre de Jacky</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses">
+        <div class="courses-content">
+            <h2 class="courses-heading" data-lang="en">Kelly's English class for all learners</h2>
+            <h2 class="courses-heading" data-lang="es" style="display:none;">Clase de inglés de Kelly para todos los estudiantes</h2>
+            <div class="course-cards">
+                <div class="course-card">
+                    <img class="course-image" src="images/realistic_pre_primary.svg" alt="Pre-primary English Class" width="300" height="200">
+                    <h3 class="course-title" data-lang="en">Pre-primary</h3>
+                    <h3 class="course-title" data-lang="es" style="display:none;">Preprimaria</h3>
+                    <p class="course-description" data-lang="en">Grow young learners' confidence with stories and be prepared for school</p>
+                    <p class="course-description" data-lang="es" style="display:none;">Desarrolla la confianza de los jóvenes aprendices con historias y prepáralos para la escuela</p>
+                </div>
+                <div class="course-card">
+                    <img class="course-image" src="images/realistic_primary.svg" alt="Primary English Class" width="300" height="200">
+                    <h3 class="course-title" data-lang="en">Primary</h3>
+                    <h3 class="course-title" data-lang="es" style="display:none;">Primaria</h3>
+                    <p class="course-description" data-lang="en">Grow young learners' confidence with readings and grammar</p>
+                    <p class="course-description" data-lang="es" style="display:none;">Desarrolla la confianza de los jóvenes aprendices con lecturas y gramática</p>
+                </div>
+                <div class="course-card">
+                    <img class="course-image" src="images/realistic_secondary.svg" alt="Secondary English Class" width="300" height="200">
+                    <h3 class="course-title" data-lang="en">Secondary</h3>
+                    <h3 class="course-title" data-lang="es" style="display:none;">Secundaria</h3>
+                    <p class="course-description" data-lang="en">Help teenage learners discover English through topics they love and develop transferable skills!</p>
+                    <p class="course-description" data-lang="es" style="display:none;">Ayuda a los adolescentes a descubrir el inglés a través de temas que aman y desarrollan habilidades transferibles</p>
+                </div>
+                <div class="course-card">
+                    <img class="course-image" src="images/realistic_adult.svg" alt="Adult English Class" width="300" height="200">
+                    <h3 class="course-title" data-lang="en">Adult</h3>
+                    <h3 class="course-title" data-lang="es" style="display:none;">Adultos</h3>
+                    <p class="course-description" data-lang="en">Support adult learners as they build the skills they need for work</p>
+                    <p class="course-description" data-lang="es" style="display:none;">Apoya a los adultos aprendices mientras desarrollan las habilidades que necesitan para el trabajo</p>
+                </div>
+            </div>
+            <p class="courses-footer" data-lang="en">WHETHER YOU'RE INTRODUCING YOUNG LEARNERS TO ENGLISH, SEEKING TO INSPIRE TEENAGERS OR HELPING ADULTS GET THEIR DREAM JOB OR ACHIEVE A LIFE GOAL KELLY ENGLISH CAN SUPPORT YOU.</p>
+            <p class="courses-footer" data-lang="es" style="display:none;">SI ESTÁS INTRODUCIENDO A JÓVENES APRENDICES AL INGLÉS, BUSCANDO INSPIRAR A LOS ADOLESCENTES O AYUDANDO A LOS ADULTOS A CONSEGUIR SU TRABAJO DE SUEÑO O ALCANZAR UNA META DE VIDA, KELLY ENGLISH PUEDE APOYARTE.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="contact-content">
+            <h2 class="contact-heading" data-lang="en">Contact us to find out more about our courses</h2>
+            <h2 class="contact-heading" data-lang="es" style="display:none;">Contáctenos para obtener más información sobre nuestros cursos</h2>
+            <div class="contact-info">
+                <p class="contact-item" data-lang="en">Name: Xin He</p>
+                <p class="contact-item" data-lang="es" style="display:none;">Nombre: Xin He</p>
+                <p class="contact-item" data-lang="en">Mobile: (34) 6775 30 336</p>
+                <p class="contact-item" data-lang="es" style="display:none;">Móvil: (34) 6775 30 336</p>
+                <p class="contact-item" data-lang="en">WhatsApp: (34) 6775 30 336</p>
+                <p class="contact-item" data-lang="es" style="display:none;">WhatsApp: (34) 6775 30 336</p>
+                <p class="contact-item" data-lang="en">Email: <a href="mailto:kellyenglishclass001@gmail.com">kellyenglishclass001@gmail.com</a></p>
+                <p class="contact-item" data-lang="es" style="display:none;">Correo electrónico: <a href="mailto:kellyenglishclass001@gmail.com">kellyenglishclass001@gmail.com</a></p>
+                <p class="contact-item" data-lang="en">Website: <a href="https://kellyenglish.my.canva.site/kelly-english-class" target="_blank">kellyenglish.my.canva.site/kelly-english-class</a></p>
+                <p class="contact-item" data-lang="es" style="display:none;">Sitio web: <a href="https://kellyenglish.my.canva.site/kelly-english-class" target="_blank">kellyenglish.my.canva.site/kelly-english-class</a></p>
+            </div>
+            <div class="contact-logo">
+                <span class="brand-text">KELLY ENGLISH CLASS</span>
+                <span class="logo-star">⭐</span>
+            </div>
+        </div>
+    </section>
+
+      <footer>
+          <div class="footer-content">
+              <p data-lang="en">&copy; 2024 Kelly's English Class. All rights reserved.</p>
+              <p data-lang="es" style="display:none;">&copy; 2024 Clase de Inglés Kelly. Todos los derechos reservados.</p>
+          </div>
+      </footer>
+
+      <script src="script.js"></script>
+      <script>
+          // Language switching functionality
+          document.addEventListener('DOMContentLoaded', function() {
+              const languageButtons = document.querySelectorAll('.language-btn');
+               
+              languageButtons.forEach(button => {
+                  button.addEventListener('click', function() {
+                      const lang = this.getAttribute('lang');
+                       
+                      // Update button states
+                      languageButtons.forEach(btn => btn.classList.remove('active'));
+                      this.classList.add('active');
+                       
+                      // Switch all text content except language buttons
+                      document.querySelectorAll('[data-lang]').forEach(element => {
+                          // Skip language switch buttons
+                          if (!element.classList.contains('language-btn')) {
+                              if (element.getAttribute('data-lang') === lang) {
+                                  element.style.display = '';
+                              } else {
+                                  element.style.display = 'none';
+                              }
+                          }
+                      });
+                       
+                      // Update SVG text
+                      document.querySelectorAll('text[data-lang]').forEach(text => {
+                          if (text.getAttribute('data-lang') === lang) {
+                              text.setAttribute('style', '');
+                          } else {
+                              text.setAttribute('style', 'display:none;');
+                          }
+                      });
+                  });
+              });
+          });
+      </script>
+</body>
+</html>

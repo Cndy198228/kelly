@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
+  <rect width="300" height="200" fill="#0056b3"/>
+  <circle cx="150" cy="80" r="35" fill="#FFDAB9"/>
+  <rect x="130" y="140" width="40" height="30" rx="5" fill="#2F4F4F"/>
+  <text x="150" y="185" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">Adult</text>
+</svg>

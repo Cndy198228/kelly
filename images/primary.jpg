@@ -1,0 +1,26 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#0056b3"/>
+  
+  <!-- Primary Class Illustration -->
+  <g>
+    <!-- Two children -->
+    <circle cx="120" cy="100" r="25" fill="#FFDAB9"/>
+    <circle cx="180" cy="90" r="25" fill="#FFE4B5"/>
+    
+    <!-- School bag -->
+    <path d="M150 130 L130 150 L170 150 Z" fill="#800020"/>
+    <path d="M140 150 L160 150 L155 170 L145 170 Z" fill="#800020"/>
+    
+    <!-- Books -->
+    <rect x="125" y="115" width="30" height="25" rx="1" fill="#FFD700"/>
+    <rect x="160" y="110" width="25" height="20" rx="1" fill="#FF6347"/>
+    
+    <!-- Pencil -->
+    <path d="M185 140 L190 145 L170 165 L165 160 Z" fill="#8B4513"/>
+    <path d="M188 143 L191 146 L186 149 L183 146 Z" fill="#FFFFFF"/>
+    
+    <!-- Text -->
+    <text x="150" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Primary Class</text>
+  </g>
+</svg>

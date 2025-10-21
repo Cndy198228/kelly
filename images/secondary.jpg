@@ -1,0 +1,25 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#0056b3"/>
+  
+  <!-- Secondary Class Illustration -->
+  <g>
+    <!-- Teenager -->
+    <circle cx="150" cy="80" r="30" fill="#FFB6C1"/>
+    
+    <!-- Laptop/Device -->
+    <rect x="120" y="120" width="60" height="40" rx="2" fill="#4682B4"/>
+    <rect x="130" y="116" width="40" height="4" rx="1" fill="#708090"/>
+    
+    <!-- Smartphone -->
+    <rect x="190" y="130" width="20" height="35" rx="2" fill="#2F4F4F"/>
+    <rect x="192" y="132" width="16" height="31" rx="1" fill="#E0FFFF"/>
+    
+    <!-- Globe (for global topics) -->
+    <circle cx="100" cy="140" r="15" fill="#32CD32"/>
+    <path d="M100 125 L100 155 M85 140 L115 140 M90 130 L110 150 M90 150 L110 130" stroke="#228B22" stroke-width="1"/>
+    
+    <!-- Text -->
+    <text x="150" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Secondary Class</text>
+  </g>
+</svg>

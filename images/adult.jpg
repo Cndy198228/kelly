@@ -1,0 +1,28 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#0056b3"/>
+  
+  <!-- Adult Class Illustration -->
+  <g>
+    <!-- Adult -->
+    <circle cx="150" cy="80" r="35" fill="#FFDAB9"/>
+    
+    <!-- Briefcase -->
+    <path d="M130 130 L170 130 L165 160 L135 160 Z" fill="#2F4F4F"/>
+    <rect x="140" y="125" width="20" height="5" fill="#2F4F4F"/>
+    <circle cx="145" cy="160" r="2" fill="#696969"/>
+    <circle cx="155" cy="160" r="2" fill="#696969"/>
+    
+    <!-- Documents -->
+    <rect x="110" y="125" width="20" height="30" rx="1" fill="#FFFFFF"/>
+    <rect x="112" y="127" width="16" height="26" rx="1" fill="#FFD700"/>
+    
+    <!-- Coffee cup -->
+    <circle cx="190" cy="140" r="10" fill="#8B4513"/>
+    <path d="M200 135 L210 130 L210 145 L200 140" fill="#A0522D"/>
+    <circle cx="190" cy="140" r="7" fill="#FFF8DC"/>
+    
+    <!-- Text -->
+    <text x="150" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Adult Class</text>
+  </g>
+</svg>

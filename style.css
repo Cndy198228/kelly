@@ -449,13 +449,44 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    /* Navigation and Header Adjustments */
+    .language-switcher {
+        top: 10px;
+        left: 10px;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .legal-link-container {
+        top: 10px;
+        right: 10px;
+    }
+    
+    .legal-link,
+    .language-btn {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+    
+    /* Hero Section */
+    .hero {
+        padding: 80px 15px 40px;
+    }
+    
     .hero-main {
         flex-direction: column;
+        gap: 20px;
     }
     
     .hero-buttons {
         grid-template-columns: 1fr;
-        max-width: 300px;
+        max-width: 280px;
+        gap: 10px;
+    }
+    
+    .hero-button {
+        padding: 14px 20px;
+        font-size: 1rem;
     }
     
     .heart-bubble {
@@ -466,12 +497,14 @@ body {
         right: -15px;
     }
     
+    /* Content Sections */
     .feature-cards,
     .feature-descriptions,
     .testimonials,
     .course-cards {
         flex-direction: column;
         align-items: center;
+        gap: 20px;
     }
     
     .feature-card,
@@ -481,6 +514,8 @@ body {
     
     .testimonial {
         max-width: 100%;
+        min-width: unset;
+        padding: 20px;
     }
     
     .course-card {
@@ -488,68 +523,202 @@ body {
         max-width: 300px;
     }
     
+    .explore,
+    .comments,
+    .courses,
+    .contact {
+        padding: 40px 15px;
+    }
+    
+    .explore::after,
+    .comments::before,
+    .courses::after {
+        font-size: 3rem;
+        right: 10px;
+        top: 10px;
+    }
+    
+    /* Typography */
     .explore-heading,
     .comments-heading,
     .courses-heading,
     .contact-heading {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin-bottom: 30px;
     }
     
     .hero-heading {
         font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    .explore-subtitle {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+    
+    .testimonial-text {
+        font-size: 0.9rem;
+        line-height: 1.7;
+    }
+    
+    .course-title {
+        font-size: 1.1rem;
+    }
+    
+    .course-description {
+        font-size: 0.85rem;
+    }
+    
+    .contact-item {
+        font-size: 1.1rem;
     }
 }
 
 @media (max-width: 480px) {
+    /* Header and Logo */
     .hero {
-        padding: 30px 15px;
+        padding: 90px 10px 40px;
+    }
+    
+    .logo-container {
+        margin-bottom: 20px;
+        gap: 8px;
     }
     
     .logo-star {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     
     .brand-name {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+    }
+    
+    /* Images and Layout */
+    .hero-image-container {
+        width: 100%;
     }
     
     .hero-image {
         width: 100%;
-        max-width: 300px;
+        max-width: 280px;
+        border-width: 8px;
     }
     
     .heart-bubble {
         width: 40px;
         height: 40px;
         font-size: 1.2rem;
-        top: 10px;
-        right: -10px;
+        top: 8px;
+        right: -8px;
     }
     
+    /* Decorative Elements */
     .explore::after,
     .comments::before,
     .courses::after {
         font-size: 2.5rem;
-        right: 20px;
-        top: 10px;
+        right: 10px;
+        top: 8px;
     }
     
+    /* Typography */
     .explore-heading,
     .comments-heading,
     .courses-heading,
     .contact-heading {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+        margin-bottom: 25px;
     }
     
     .hero-heading {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+        margin-bottom: 15px;
     }
     
-    .contact-item {
+    .explore-subtitle {
+        font-size: 0.95rem;
+        margin-bottom: 25px;
+    }
+    
+    /* Cards and Features */
+    .feature-card,
+    .feature-desc {
+        width: 180px;
+        padding: 15px;
+    }
+    
+    .feature-icon {
+        font-size: 2rem;
+    }
+    
+    .feature-title {
         font-size: 1rem;
     }
     
+    /* Testimonials and Courses */
+    .testimonial {
+        padding: 15px;
+    }
+    
+    .testimonial-avatar {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+    
+    .testimonial-text {
+        font-size: 0.85rem;
+        margin-bottom: 15px;
+    }
+    
+    .testimonial-author {
+        font-size: 0.9rem;
+    }
+    
+    .course-card {
+        width: 95%;
+        max-width: 260px;
+    }
+    
+    .course-image {
+        height: 130px;
+    }
+    
+    .course-title {
+        font-size: 1rem;
+        margin: 12px 0;
+    }
+    
+    .course-description {
+        font-size: 0.8rem;
+        padding: 0 12px 15px;
+    }
+    
+    /* Contact Section */
+    .contact-item {
+        font-size: 1rem;
+        margin-bottom: 12px;
+        line-height: 1.7;
+    }
+    
+    .contact-logo {
+        padding-top: 25px;
+        gap: 12px;
+    }
+    
     .brand-text {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+    
+    /* Button and Interactive Elements */
+    .hero-button {
+        padding: 12px 18px;
+        font-size: 0.95rem;
+    }
+    
+    .language-btn,
+    .legal-link {
+        padding: 5px 10px;
+        font-size: 0.75rem;
     }
 }
